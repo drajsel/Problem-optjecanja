@@ -1,0 +1,11 @@
+# Configuration file for the example program - cgstokes -
+
+OutputFile = stepenica
+velmax = 10
+
+[physics]
+rho = 1.0
+mu = 1
+
+[domain]
+level = 3

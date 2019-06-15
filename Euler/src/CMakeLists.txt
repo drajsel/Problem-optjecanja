@@ -1,0 +1,12 @@
+add_executable("projektni" projektni.cc bctype.hh driver.hh operator.hh coefficients.hh)
+target_link_dune_default_libraries("projektni")
+dune_symlink_to_source_files(FILES "1.msh")
+dune_symlink_to_source_files(FILES "2.msh")
+dune_symlink_to_source_files(FILES "3.msh")
+dune_symlink_to_source_files(FILES "4.msh")
+dune_symlink_to_source_files(FILES "5.msh")
+dune_symlink_to_source_files(FILES "6.msh")
+dune_symlink_to_source_files(FILES "7.msh")
+dune_symlink_to_source_files(FILES "8.msh")
+dune_symlink_to_source_files(FILES "9.msh")
+
